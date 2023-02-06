@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_author">
+
+    <fragment
+        android:id="@+id/nav_author"
+        android:name="com.example.bluetoothled.ui.m01.Author.AuthorFragment"
+        android:label="@string/menu_author"
+        tools:layout="@layout/fragment_m01_author" />
+
+    <fragment
+        android:id="@+id/nav_thinkercad"
+        android:name="com.example.bluetoothled.ui.m02.ThinkerCad.ThinkerCadFragment"
+        android:label="@string/menu_thinkercad"
+        tools:layout="@layout/fragment_m02_thinkercad" />
+
+    <fragment
+        android:id="@+id/nav_wokwi"
+        android:name="com.example.bluetoothled.ui.m03.Wokwi.WokwiFragment"
+        android:label="@string/menu_wokwi"
+        tools:layout="@layout/fragment_m03_wokwi" />
+
+    <fragment
+        android:id="@+id/nav_proteus"
+        android:name="com.example.bluetoothled.ui.m04.Proteus.ProteusFragment"
+        android:label="@string/menu_proteus"
+        tools:layout="@layout/fragment_m04_proteus" />
+
+    <fragment
+        android:id="@+id/nav_led"
+        android:name="com.example.bluetoothled.ui.m05.Led.LedFragment"
+        android:label="@string/menu_led"
+        tools:layout="@layout/fragment_m05_led" />
+
+    <fragment
+        android:id="@+id/nav_joystick"
+        android:name="com.example.bluetoothled.ui.m06.Joystick.JoystickFragment"
+        android:label="@string/menu_joystick"
+        tools:layout="@layout/fragment_m06_joystick" />
+</navigation>
